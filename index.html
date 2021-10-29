@@ -11,9 +11,12 @@
   <body>
 
     <div class="container">
+      
         <div class="row justify-content-center">
             <div class="col-md-8">   
             <h1 class="text-center my-4">Tasks</h1>
+            
+            
     
             <!-- <div id="navigation">
                 <input type="text" name="task" id="inp" />
@@ -25,10 +28,10 @@
               </div> -->
               <div class="row g-3 mb-5 myrow">
                 <div class="col-md-9">
-                  <input id="inp" type="text" class="form-control" placeholder="Write your task" aria-label="First name">
+                  <input id="inp" type="text" class="form-control" placeholder="Write your task">
                 </div>
                 <div class="col">
-                  <button id="add" type="button" class="btn btn-primary">Add Task</button>
+                  <button data-bs-target="#exampleModal data-bs-toggle="modal" id="add" type="button" class="btn btn-primary">Add Task</button>
                 </div>
               </div>
             
@@ -37,6 +40,8 @@
                     <ul id="list" class="list-group"></ul>
                   </div>
             </div>
+
+            
 
 
             </div>
