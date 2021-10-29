@@ -1,0 +1,18 @@
+/* h1 {
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  width: 50%;
+} */
+
+.myrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: flex-start !important;
+}
