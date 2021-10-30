@@ -18,7 +18,9 @@ for (let i = 0; i < tasks.length; i++) {
     let li = `<li class="list-group-item d-flex justify-content-between align-items-center">
     ${tasks[i]}<button class="btn btn-outline-danger del">Delete</button></li>`    
     listPlace.insertAdjacentHTML('beforeend', li)
+
 }
+
 
 function deleteItem(e){
      this.parentNode.remove();
@@ -29,9 +31,13 @@ function deleteItem(e){
  }
 
 
-const add=()=>{    
+const add=()=>{  
+    let alertBlock= `<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    Task field cannot be empty!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>`;  
 if (input.value =='') {
-    alert("Please write your task in the field");
+    document.getElementById('alert-place').insertAdjacentHTML('beforeend',alertBlock);
 }else{
     //tasks.push(input.value);
     //listPlace.innerHTML = '';
