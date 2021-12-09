@@ -1,3 +1,3 @@
 # Simple todo-list made in Vanilla JS
 
-# DOM practice
+Implemented when learning DOM basics
