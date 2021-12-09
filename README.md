@@ -1,3 +1,3 @@
-# simple todo-list made in pure js
+# Simple todo-list made in Vanilla JS
 
 # DOM practice
